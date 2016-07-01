@@ -14,6 +14,7 @@
 		239E0A451C9B8E8500D13C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239E0A441C9B8E8500D13C87 /* Assets.xcassets */; };
 		239E0A481C9B8E8500D13C87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239E0A461C9B8E8500D13C87 /* LaunchScreen.storyboard */; };
 		239E0A531C9B8E8500D13C87 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 239E0A521C9B8E8500D13C87 /* __Tests.m */; };
+		314139741D260CDB00C60F45 /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 314139731D260CDB00C60F45 /* resource.bundle */; };
 		3142AA3C1D24FA72006598E1 /* PinTuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3142AA3B1D24FA72006598E1 /* PinTuViewController.m */; };
 		315656EE1D06C54D009BD43F /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 315656ED1D06C54D009BD43F /* 1.png */; };
 		3183024A1D0014D3003B6DAB /* Coming Home.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 318302491D0014C6003B6DAB /* Coming Home.m4r */; };
@@ -48,6 +49,7 @@
 		239E0A4E1C9B8E8500D13C87 /* 闹钟Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "闹钟Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		239E0A521C9B8E8500D13C87 /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
 		239E0A541C9B8E8500D13C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314139731D260CDB00C60F45 /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
 		3142AA3A1D24FA72006598E1 /* PinTuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinTuViewController.h; sourceTree = "<group>"; };
 		3142AA3B1D24FA72006598E1 /* PinTuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinTuViewController.m; sourceTree = "<group>"; };
 		315656ED1D06C54D009BD43F /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				318302521D002C03003B6DAB /* 4.JPG */,
 				315656ED1D06C54D009BD43F /* 1.png */,
 				3183024C1D001B24003B6DAB /* 2.png */,
+				314139731D260CDB00C60F45 /* resource.bundle */,
 				318302491D0014C6003B6DAB /* Coming Home.m4r */,
 				239E0A3B1C9B8E8500D13C87 /* AppDelegate.h */,
 				239E0A3C1C9B8E8500D13C87 /* AppDelegate.m */,
@@ -214,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				314139741D260CDB00C60F45 /* resource.bundle in Resources */,
 				318302531D002C03003B6DAB /* 4.JPG in Resources */,
 				315656EE1D06C54D009BD43F /* 1.png in Resources */,
 				3183024A1D0014D3003B6DAB /* Coming Home.m4r in Resources */,
