@@ -166,7 +166,7 @@
  *  @param btn <#btn description#>
  */
 -(void)changeImage:(UIButton *)btn {
-    if (_imageNumber++ == 4) {
+    if (_imageNumber++ == 5) {
         _imageNumber = 1;
     }
     [_images removeAllObjects];
