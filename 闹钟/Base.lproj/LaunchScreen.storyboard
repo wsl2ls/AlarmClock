@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="4.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="VCJ-QC-Yih">
+                                <rect key="frame" x="196" y="295" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="VCJ-QC-Yih" secondAttribute="trailing" constant="-20" id="5sT-48-IIu"/>
+                            <constraint firstItem="VCJ-QC-Yih" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="L6B-km-IQ0">
+                                <variation key="widthClass=compact" constant="-450"/>
+                            </constraint>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="VCJ-QC-Yih" secondAttribute="bottom" id="nzJ-0Q-NNe"/>
+                            <constraint firstItem="VCJ-QC-Yih" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="t82-Ak-ZYf"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5sT-48-IIu"/>
+                                <exclude reference="L6B-km-IQ0"/>
+                                <exclude reference="t82-Ak-ZYf"/>
+                                <exclude reference="nzJ-0Q-NNe"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="5sT-48-IIu"/>
+                                <include reference="L6B-km-IQ0"/>
+                                <include reference="t82-Ak-ZYf"/>
+                                <include reference="nzJ-0Q-NNe"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="57" y="373"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="4.JPG" width="720" height="600"/>
+    </resources>
+</document>
